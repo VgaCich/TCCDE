@@ -125,7 +125,7 @@ end;
 
 procedure TFormOptions.CancelButtonClick(Sender: PObj);
 begin
-  Form.Close;
+  Form.Close; //TODO: reset SampleEditor/Hilighter/Gutter settings
 end;
 
 procedure TFormOptions.OKButtonClick(Sender: PObj);
